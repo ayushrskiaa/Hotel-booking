@@ -1,0 +1,43 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "homepage": "https://github.com/ayushrskiaa/Nature-s-Heaven#readme",
+  "bugs": {
+    "url": "https://github.com/ayushrskiaa/Nature-s-Heaven/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushrskiaa/Nature-s-Heaven.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "postcss.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@material-tailwind/react": "^2.1.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.5.9"
+  }
+}
